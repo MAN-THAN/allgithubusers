@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import ClassCounter from './Hooks/ClassCounter'
+import HookCounter from './Hooks/FunctionCounter'
+import Hookcounter1 from './Hookcounter1'
+import { StudentProvider } from './StudentContext'
+import Form from './Controlled/Form'
+import GitHubapi from './GitHubapi'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      <GitHubapi/>
+  )
 }
 
-export default App;
+export default App
+

@@ -1,0 +1,30 @@
+.image{
+    width: 300px;
+
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card {
+    width: 300px;
+    margin : 35`px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aquamarine;
+}
+h2{
+    text-align: center;
+    font-size: 100px;
+}
+*{
+    margin: 0;padding: 0;
+}
+.container{
+    background-image: linear-gradient(green, red, white, green);
+    width: 100%;
+ 
+}
